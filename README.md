@@ -12,9 +12,12 @@ This repository contains the code and data associated with the paper titled "Rea
 
 The dependencies for each programming language implementation includes:
 
-- [Python](https://www.python.org/): [Matplotlib](https://matplotlib.org/), [NumPy](https://numpy.org/), [Pandas](https://pandas.pydata.org/), [scikit-posthoc](https://scikit-posthocs.readthedocs.io/en/latest/), [SciPy](https://scipy.org/), and [seaborn](https://seaborn.pydata.org/) 
+- [Python](https://www.python.org/): [Matplotlib](https://matplotlib.org/), [NumPy](https://numpy.org/), [Pandas](https://pandas.pydata.org/), [scikit-posthoc](https://scikit-posthocs.readthedocs.io/en/latest/), [SciPy](https://scipy.org/), [seaborn](https://seaborn.pydata.org/) 
+
 - [GNU Octave](https://octave.org/)
+
 - [R](https://www.r-project.org/): [deSolve](https://desolve.r-forge.r-project.org/)
+
 - [Julia](https://julialang.org/): [CSV.jl](https://csv.juliadata.org/stable/), [DataFrames.jl](https://dataframes.juliadata.org/stable/), [DifferentialEquations.jl](https://docs.sciml.ai/DiffEqDocs/stable/)
 
 
