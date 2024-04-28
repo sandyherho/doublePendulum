@@ -1,3 +1,18 @@
+# ******************************************************************************
+# Author: Sandy Herho <sandy.herho@email.ucr.edu>
+# Date: April 28, 2024
+# File Name: doublePendulumCalc.R
+#
+# Description:
+#   This script simulates a double pendulum system using numerical integration
+#   and saves the results to CSV files.
+#
+# Dependencies:
+#   - Requires the 'deSolve' package for numerical integration.
+#
+# ******************************************************************************
+
+# Load necessary libraries
 library(deSolve)
 
 # Define the differential equations for the double pendulum system
@@ -66,8 +81,8 @@ run_double_pendulum_simulations <- function() {
   initial_conditions_original <- c(pi, 0.0, 1.57, 0.0)
   initial_conditions_modified <- c(pi, 0.001, 1.57, 0.001)
   
-  simulate_double_pendulum(m1, m2, L1, L2, g, initial_conditions_original, '../data/r_double_pendulum_original.csv')
-  simulate_double_pendulum(m1, m2, L1, L2, g, initial_conditions_modified, '../data/r_double_pendulum_modified.csv')
+  simulate_double_pendulum(m1, m2, L1, L2, g, initial_conditions_original, 'r_double_pendulum_original.csv')
+  simulate_double_pendulum(m1, m2, L1, L2, g, initial_conditions_modified, 'r_double_pendulum_modified.csv')
 }
 
 # Run the simulations
