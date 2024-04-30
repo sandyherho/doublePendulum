@@ -1,0 +1,10 @@
+Variable,KS_Statistic,p_value,Interpretation
+t,0.0,1.0,Distributions are similar (fail to reject null hypothesis)
+x1,0.0941,6.166727349642842e-39,Distributions are different (reject null hypothesis)
+y1,0.1164,2.1281663424211843e-59,Distributions are different (reject null hypothesis)
+x2,0.1097,8.60871893796838e-53,Distributions are different (reject null hypothesis)
+y2,0.0949,1.3535345596543116e-39,Distributions are different (reject null hypothesis)
+theta1,0.1405,1.9508947446298765e-86,Distributions are different (reject null hypothesis)
+theta2,0.2802,1e-323,Distributions are different (reject null hypothesis)
+omega1,0.0947,1.979892123412575e-39,Distributions are different (reject null hypothesis)
+omega2,0.2461,3.6445849765136586e-266,Distributions are different (reject null hypothesis)
