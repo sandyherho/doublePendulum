@@ -33,7 +33,7 @@ If you use this code or data in your research, please cite the following paper:
 ```
 @article{herho2024Inertial,
   title={{Reappraising double pendulum dynamics across multiple computational platforms}},
-  author={Herho, S. H. S. and Fajary, F. R. and Herho, K. E. P. and Suwarman, R.},
+  author={Herho, S. H. S. and Fajary, F. R. and  Herho, K. E. P. and Anwar, I. P. and Suwarman, R.},
   journal={xxx},
   year={2024},
   doi={xxx}
