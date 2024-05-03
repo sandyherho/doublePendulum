@@ -1,5 +1,13 @@
 #!/usr/bin/env python
 
+"""
+Author: Sandy Herho <sandy.herho@email.ucr.edu>
+Date: April 29, 2024
+File Name: runtime.py
+
+This script records the execution times & memory usages.
+"""
+
 import csv
 import subprocess
 import time
@@ -32,9 +40,9 @@ if __name__ == "__main__":
 
     # Script paths and commands
     scripts = [
-        #{'path': 'doublePendulumCalc.py', 'command': 'python doublePendulumCalc.py'},
-        #{'path': 'doublePendulumCalc.R', 'command': 'Rscript doublePendulumCalc.R'},
-        #{'path': 'doublePendulumCalc.m', 'command': 'octave-cli doublePendulumCalc.m'},
+        {'path': 'doublePendulumCalc.py', 'command': 'python doublePendulumCalc.py'},
+        {'path': 'doublePendulumCalc.R', 'command': 'Rscript doublePendulumCalc.R'},
+        {'path': 'doublePendulumCalc.m', 'command': 'octave-cli doublePendulumCalc.m'},
         {'path': 'doublePendulumCalc.jl', 'command': 'julia doublePendulumCalc.jl'}
     ]
 

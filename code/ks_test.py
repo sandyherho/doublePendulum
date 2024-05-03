@@ -1,5 +1,13 @@
 #!/usr/bin/env python
 
+"""
+Author: Sandy Herho <sandy.herho@email.ucr.edu>
+Date: April 29, 2024
+File Name: ks_test.py
+
+This script calculates perturbed vs original double pendulum simulation difference.
+"""
+
 import pandas as pd
 from scipy.stats import ks_2samp
 
