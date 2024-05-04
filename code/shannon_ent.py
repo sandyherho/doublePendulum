@@ -1,5 +1,13 @@
 #!/usr/bin/env python
 
+"""
+Author: Sandy Herho <sandy.herho@email.ucr.edu>
+Date: May 3, 2024
+File Name: shanon_ent.py
+
+This script calculates Shannon Entropy from a simulated double pendulum system.
+"""
+
 import pandas as pd
 import numpy as np
 

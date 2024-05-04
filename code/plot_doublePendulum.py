@@ -53,34 +53,34 @@ if __name__ == "__main__":
     plotter = PendulumPlotter(data_file_ori, data_file_mod)
 
     plotter.plot_single(plotter.df_ori['t'], plotter.df_ori['x1'], r'$t$ [s]', r'$x_1$ [m]',
-                        ['Original', 'Perturbed'], '../figs/fig2a.png')
+                        ['Original', 'Perturbed'], '../figs/fig3a.png')
     plotter.plot_single(plotter.df_ori['t'], plotter.df_ori['y1'], r'$t$ [s]', r'$y_1$ [m]',
-                        ['Original', 'Perturbed'], '../figs/fig2b.png')
+                        ['Original', 'Perturbed'], '../figs/fig3b.png')
     
     plotter.plot_single(plotter.df_ori['t'], plotter.df_ori['x2'], r'$t$ [s]', r'$x_2$ [m]',
-                        ['Original', 'Perturbed'], '../figs/fig2c.png')
-    plotter.plot_single(plotter.df_ori['t'], plotter.df_ori['y2'], r'$t$ [s]', r'$y_2$ [m]',
-                        ['Original', 'Perturbed'], '../figs/fig2d.png')
-
-    plotter.plot_single(plotter.df_ori['t'], plotter.df_ori['theta1'], r'$t$ [s]', r'$\theta_1$ [rad]',
-                        ['Original', 'Perturbed'], '../figs/fig3a.png')
-    plotter.plot_single(plotter.df_ori['t'], plotter.df_ori['theta2'], r'$t$ [s]', r'$\theta_2$ [rad]',
-                        ['Original', 'Perturbed'], '../figs/fig3b.png')
-
-    plotter.plot_single(plotter.df_ori['t'], plotter.df_ori['omega1'], r'$t$ [s]', r'$\dot{\theta}_1$ [rad/s]',
                         ['Original', 'Perturbed'], '../figs/fig3c.png')
-    plotter.plot_single(plotter.df_ori['t'], plotter.df_ori['omega2'], r'$t$ [s]', r'$\dot{\theta}_2$ [rad/s]',
+    plotter.plot_single(plotter.df_ori['t'], plotter.df_ori['y2'], r'$t$ [s]', r'$y_2$ [m]',
                         ['Original', 'Perturbed'], '../figs/fig3d.png')
 
+    plotter.plot_single(plotter.df_ori['t'], plotter.df_ori['theta1'], r'$t$ [s]', r'$\theta_1$ [rad]',
+                        ['Original', 'Perturbed'], '../figs/fig4a.png')
+    plotter.plot_single(plotter.df_ori['t'], plotter.df_ori['theta2'], r'$t$ [s]', r'$\theta_2$ [rad]',
+                        ['Original', 'Perturbed'], '../figs/fig4b.png')
+
+    plotter.plot_single(plotter.df_ori['t'], plotter.df_ori['omega1'], r'$t$ [s]', r'$\dot{\theta}_1$ [rad/s]',
+                        ['Original', 'Perturbed'], '../figs/fig4c.png')
+    plotter.plot_single(plotter.df_ori['t'], plotter.df_ori['omega2'], r'$t$ [s]', r'$\dot{\theta}_2$ [rad/s]',
+                        ['Original', 'Perturbed'], '../figs/fig4d.png')
+
     plotter.plot_xy_trajectory(plotter.df_ori['x1'], plotter.df_ori['y1'], plotter.df_ori['x2'], plotter.df_ori['y2'],
-                               ['Inner Pendulum (1)', 'Outer Pendulum (2)'], '../figs/fig4a.png')
+                               ['Inner Pendulum (1)', 'Outer Pendulum (2)'], '../figs/fig5a.png')
     plotter.plot_xy_trajectory(plotter.df_mod['x1'], plotter.df_mod['y1'], plotter.df_mod['x2'], plotter.df_mod['y2'],
-                               ['Inner Pendulum (1)', 'Outer Pendulum (2)'], '../figs/fig4b.png')
+                               ['Inner Pendulum (1)', 'Outer Pendulum (2)'], '../figs/fig5b.png')
 
     plotter.plot_phase_space(plotter.df_ori['theta1'], plotter.df_ori['omega1'], plotter.df_ori['theta2'],
                              plotter.df_ori['omega2'], ['Inner Pendulum (1)', 'Outer Pendulum (2)'],
-                             '../figs/fig4c.png')
+                             '../figs/fig5c.png')
     plotter.plot_phase_space(plotter.df_mod['theta1'], plotter.df_mod['omega1'], plotter.df_mod['theta2'],
                              plotter.df_mod['omega2'], ['Inner Pendulum (1)', 'Outer Pendulum (2)'],
-                             '../figs/fig4d.png')
+                             '../figs/fig5d.png')
 

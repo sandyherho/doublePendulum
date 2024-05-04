@@ -5,7 +5,7 @@
 [![GitHub watchers](https://img.shields.io/github/watchers/Naereen/StrapDown.js.svg?style=social&label=Watch&maxAge=2592000)](https://github.com/sandyherho/doublePendulum/watchers)
 
 
-This repository contains the code and data associated with the paper titled "Reappraising double pendulum dynamics across multiple computational platforms" by [Sandy H. S. Herho](https://scholar.google.com/citations?user=uYQgjxMAAAAJ&hl=id), [Faiz R. Fajary](https://scholar.google.co.jp/citations?user=cTqtdTIAAAAJ&hl=en), [Katarina E. P. Herho](https://scholar.google.com/citations?user=XsjZGN0AAAAJ&hl=id), [Iwan P. Anwar](https://scholar.google.co.id/citations?user=NMs_TswAAAAJ&hl=id), and [Rusmawan Suwarman](https://scholar.google.co.id/citations?user=NfMfR8LMVz8C&hl=en).
+This repository contains the code and data associated with the paper titled "Reappraising double pendulum dynamics across multiple computational platforms" by [Sandy H. S. Herho](https://scholar.google.com/citations?user=uYQgjxMAAAAJ&hl=id), [Faiz R. Fajary](https://scholar.google.co.jp/citations?user=cTqtdTIAAAAJ&hl=en), [Katarina E. P. Herho](https://scholar.google.com/citations?user=XsjZGN0AAAAJ&hl=id), [Iwan P. Anwar](https://scholar.google.co.id/citations?user=NMs_TswAAAAJ&hl=id), [Rusmawan Suwarman](https://scholar.google.co.id/citations?user=NfMfR8LMVz8C&hl=en), and [Dasapta E. Irawan](https://scholar.google.com/citations?user=Myvc78MAAAAJ&hl=en).
 
 
 ## Dependencies
@@ -33,7 +33,7 @@ If you use this code or data in your research, please cite the following paper:
 ```
 @article{herho2024Inertial,
   title={{Reappraising double pendulum dynamics across multiple computational platforms}},
-  author={Herho, S. H. S. and Fajary, F. R. and  Herho, K. E. P. and Anwar, I. P. and Suwarman, R.},
+  author={Herho, S. H. S. and Fajary, F. R. and  Herho, K. E. P. and Anwar, I. P. and Suwarman, R. and Irawan, D. E.},
   journal={xxx},
   year={2024},
   doi={xxx}
