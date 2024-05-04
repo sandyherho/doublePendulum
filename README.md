@@ -3,6 +3,7 @@
 [![License: WTFPL](https://img.shields.io/badge/License-WTFPL-brightgreen.svg)](http://www.wtfpl.net/about/)
 [![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)
 [![GitHub watchers](https://img.shields.io/github/watchers/Naereen/StrapDown.js.svg?style=social&label=Watch&maxAge=2592000)](https://github.com/sandyherho/doublePendulum/watchers)
+[![DOI](https://zenodo.org/badge/792951883.svg)](https://zenodo.org/doi/10.5281/zenodo.11113305)
 
 
 This repository contains the code and data associated with the paper titled "Reappraising double pendulum dynamics across multiple computational platforms" by [Sandy H. S. Herho](https://scholar.google.com/citations?user=uYQgjxMAAAAJ&hl=id), [Faiz R. Fajary](https://scholar.google.co.jp/citations?user=cTqtdTIAAAAJ&hl=en), [Katarina E. P. Herho](https://scholar.google.com/citations?user=XsjZGN0AAAAJ&hl=id), [Iwan P. Anwar](https://scholar.google.co.id/citations?user=NMs_TswAAAAJ&hl=id), [Rusmawan Suwarman](https://scholar.google.co.id/citations?user=NfMfR8LMVz8C&hl=en), and [Dasapta E. Irawan](https://scholar.google.com/citations?user=Myvc78MAAAAJ&hl=en).
